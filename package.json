@@ -7,6 +7,10 @@
   "keywords": ["api","wrapper","api-wrapper"],
   "author": "vityaschel <vityaschel@utidteam.com> (https://vityaschel.utidteam.com/)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VityaSchel/sigame-packs-api"
+  },
   "dependencies": {
     "node-fetch": "^3.0.0",
     "node-html-parser": "^5.0.0"
