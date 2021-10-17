@@ -1,0 +1,14 @@
+{
+  "name": "sigame-packs",
+  "version": "1.0.0",
+  "description": "API wrapper for sigame.ru which displays info about SiGame packs",
+  "type": "module",
+  "main": "index.js",
+  "keywords": ["api","wrapper","api-wrapper"],
+  "author": "vityaschel <vityaschel@utidteam.com> (https://vityaschel.utidteam.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.0.0",
+    "node-html-parser": "^5.0.0"
+  }
+}
