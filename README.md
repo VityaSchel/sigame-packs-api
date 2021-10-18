@@ -158,6 +158,7 @@ ID пака на сайте sigame.ru
 
 ```javascript
 {
+  size: Number // Размер в байтах
   downloads: Number, // Скачивания
   url: String // Ссылка на скачивание файла
 }
