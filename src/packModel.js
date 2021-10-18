@@ -24,7 +24,7 @@ export default class Pack {
   }
 
   getPublishDate() {
-    return this.pack.info.date * 1000
+    return new Date(this.pack.info.date * 1000)
   }
 
   getAuthorVKId() {

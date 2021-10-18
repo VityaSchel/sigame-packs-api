@@ -22,17 +22,7 @@ const packs = await api.query()
   .newest()
   .page(1)
 
-console.log(
-  packs[0].getId(),
-  packs[0].getName(),
-  packs[0].getAuthors(),
-  packs[0].getDate(),
-  packs[0].getDifficulty(),
-  packs[0].getPublishDate(),
-  packs[0].getAuthorVKId(),
-  packs[0].getFile(),
-  packs[0].getRounds(),
-)
+console.log(packs[0].getName())
 ```
 
 ### API библиотеки
@@ -131,6 +121,51 @@ console.log(
 ```
 
 По умолчанию все значения равны false, все неизвестные свойства игнорируются
+
+### Экземпляр класса Pack
+
+#### getId() : string
+
+ID пака на сайте sigame.ru
+
+#### getName() : string
+
+Название пака
+
+#### getAuthors() : Array[string]
+
+Авторы пака
+
+#### getDate() : Date
+
+Дата в content.xml пака
+
+#### getDifficulty() : number
+
+Сложность в content.xml пака
+
+#### getPublishDate() : Date
+
+Дата публикации в вк
+
+#### getAuthorVKId() : number
+
+Автор поста в вк
+
+#### getFile() : string
+
+Объект вида
+
+```javascript
+{
+  downloads: Number, // Скачивания
+  url: String // Ссылка на скачивание файла
+}
+```
+
+#### getRounds() : Array[Object]
+
+Массив раундов
 
 ---
 
