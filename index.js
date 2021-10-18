@@ -1,5 +1,2 @@
-import fetchPacks from './src/fetchPacks.js'
-
-export {
-  fetchPacks
-}
+import SIGamePacksAPI from './src/apiModel.js'
+export default SIGamePacksAPI
