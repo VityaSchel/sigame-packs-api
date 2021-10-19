@@ -1,6 +1,6 @@
 {
   "name": "sigame-packs-api",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "API wrapper for sigame.ru which displays info about SiGame packs",
   "type": "module",
   "main": "index.js",
