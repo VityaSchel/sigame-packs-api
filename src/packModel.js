@@ -47,7 +47,7 @@ export default class Pack {
 
   async getContentXML() {
     const responseRaw = await fetch(`https://sigame.ru/api/content?pack=${this.getId()}&type=json`)
-    const response = await response.json()
+    const response = await responseRaw.json()
     return response.data
   }
 }
