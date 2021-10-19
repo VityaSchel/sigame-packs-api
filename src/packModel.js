@@ -42,4 +42,10 @@ export default class Pack {
   getRounds() {
     return this.pack.package.rounds
   }
+
+  async getContentXML() {
+    const responseRaw = await fetch(`https://sigame.ru/api/content?pack=${this.getId()}&type=json`)
+    const response = await response.json()
+    return response.data
+  }
 }
