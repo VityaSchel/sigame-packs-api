@@ -1,3 +1,5 @@
+import fetch from 'node-fetch'
+
 export default class Pack {
   constructor(packInfo) {
     this.pack = packInfo
